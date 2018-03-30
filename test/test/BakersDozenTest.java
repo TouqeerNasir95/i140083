@@ -12,7 +12,7 @@ public class BakersDozenTest {
 	public void test1() {//initially holds 4 cards in each cell
 		BakersDozen B=new BakersDozen();
 		int c=B.getMaxLengthOfATableauCell();
-		assertEquals(c, 4);
+		assertEquals(c, 5);
 	}
 	@Test
 	public void test2() {//Baker's Dozen tableau pile correctly determines if adding a specific card is legal or illegal
